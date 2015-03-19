@@ -1,0 +1,108 @@
+#encabezado{
+	background: white;
+	color: white;
+	height: 3.66em;
+	position: fixed;
+	width: 100%;
+	z-index: 3;
+}
+
+#encabezadoDivQueCentraContenido{
+	margin: 0px auto;
+	position: relative;
+	width: 79%;
+}
+
+#encabezadoFigureQueContieneLogo{
+	display: inline-block;
+	height: 2.5em;
+	top: 0.58em;
+	margin-bottom: 0.55em;
+	position: absolute;
+}
+
+#encabezadoFigureQueContieneLogo img{
+	height: 100%;
+}
+
+#encabezadoFormulario{
+	display: inline-block;
+	left: 6.73em;
+	position: absolute;
+	vertical-align: top;
+}
+
+#encabezadoCuadroDeBusqueda{
+	background: #f5f5f5;
+	border: none;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;	
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	color: #6f6f6e;
+	font-family: GothamThin;
+	height: 2.5em;  
+	margin-top: 0.58em;
+	padding-left: .66em;  
+	width: 23.2em;
+}
+
+#encabezadoCuadroDeBusqueda:focus{
+	outline: none; 
+}
+
+#encabezadoBotonRegistrar{
+	background: #009EE3;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;	
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	color: white;
+	display: inline-block;
+	height: 2.5em; 
+	padding-top: .65em;
+	position: absolute;
+	right: 7.64em;
+	text-align: center;
+	top: 0.58em;
+	vertical-align: top;
+	width: 5.84em;  
+}
+
+#encabezadoBotonIngresar{
+	background: #DADAD9;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;	color: #6F6F6E;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	display: inline-block;
+	height: 2.5em;  
+	padding-top: .65em;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0.58em;
+	vertical-align: top;
+	width: 5.84em;  
+}
+
+
+

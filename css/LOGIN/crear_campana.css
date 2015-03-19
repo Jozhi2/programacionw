@@ -1,0 +1,61 @@
+#cubrePantallaPromocionarNegocio{
+	background:  rgba(0, 0, 0, 0.8);
+	height: 100%;
+	position: fixed;	
+	width: 100%;
+	z-index: 4;
+}
+
+#pantallaCentradaCrearCampana{
+	background: #ececec;	
+	display: block;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;	
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	height: 28em; /*CAMBIAR*/
+	margin-right: -22em;
+	margin-top: -14em;
+	padding-top: 9em;
+	position: fixed;
+	text-align: center;
+	top: 50%;
+	right: 50%;
+	width: 44em;
+	z-index: 5;
+}
+
+.tituloCrearCampana{
+	color: #6f6f6e;
+	font-family: GothamLight;
+	margin: 0;
+	padding: 0;
+}
+
+#cajaCrearCampana{
+	background: #009ee3;
+	border-radius: .33em;
+	-webkit-border-radius: 0 0 .33em .33em;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;	
+	bottom: 0;
+	color: white;
+	height: 6.66em;
+	position: absolute;
+	width: 100%;
+}
+
+#cajaCrearCampana:hover{
+	background: #3c3c3b;
+}
+
+#textoCrearCampana{
+	padding-top: .5em;
+}

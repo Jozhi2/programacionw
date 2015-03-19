@@ -1,0 +1,41 @@
+#principalPortada{
+	height: 23.56em;
+	padding-top: 3.6em; /*ESTE PADDING SIRVE PARA REPARAR EL ESPACIO QUE DEJA EL POSITION FIXED DEL ENCABEZADO*/
+	width: 100%;
+}
+
+#principalPortada img{
+	width: 100%;
+}
+
+#principalOpciones{
+	background: white;
+	height: 3.6em;
+	width: 100%;
+}
+
+#principalPerfil{
+	background: white;
+	border: .3em solid white;
+	border-radius: 1.3em;
+	-webkit-border-radius: 1.3em;
+	-moz-border-radius: 1.3em;
+	-o-border-radius: 1.3em;
+	-ms-border-radius: 1.3em;
+	height: 14em;
+	left: 4.33em;
+	position: absolute;
+	top: 18.5em;
+	width: 14em;
+}
+
+#principalPerfil img{	
+	border-radius: 1.3em;
+	-webkit-border-radius: 1.3em;
+	-moz-border-radius: 1.3em;
+	-o-border-radius: 1.3em;
+	-ms-border-radius: 1.3em;	
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+}

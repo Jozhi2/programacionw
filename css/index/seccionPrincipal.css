@@ -1,0 +1,57 @@
+#principal{
+	background: #ececec;
+	height: 24em;
+	margin-bottom: 3.66em;
+	overflow: hidden;
+	position: relative;
+	top: 3.66em;
+	width: 100%;
+}
+
+.negocioPrincipal{
+	background: #6f6f6e;
+	height: 24em;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 60em;
+}
+
+.negocioPrincipal img{
+	height: 100%;
+	width: 100%;
+}
+
+#ceroNegocio{
+	left: -165em;
+	top: 0;
+}
+
+#primerNegocio{
+	left: -104em;
+}
+
+#segundoNegocio{
+	left: -43em;
+}
+
+#tercerNegocio{
+	left: 18em;
+}
+
+#cuartoNegocio{
+	left: 79em;
+}
+
+#quintoNegocio{
+	left: 140em;
+	top: 0;
+}
+
+#sextoNegocio{
+	left: 201em;
+}
+
+
+
+

@@ -1,0 +1,56 @@
+#cubrePantallaFoto{
+	background:  rgba(0, 0, 0, 0.8);
+	height: 100%;
+	position: fixed;	
+	width: 100%;
+	z-index: 4;
+}
+
+#fotoCampana{
+	background: #ececec;	
+	display: block;
+	border-radius: .33em;
+	-webkit-border-radius: .33em;
+	-moz-border-radius: .33em;
+	-o-border-radius: .33em;
+	-ms-border-radius: .33em;	
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	height: 30em; /*CAMBIAR*/
+	margin-right: -27.5em;
+	margin-top: -15em;
+	padding-top: 9em;
+	position: fixed;
+	text-align: center;
+	top: 50%;
+	right: 50%;
+	width: 55em;
+	z-index: 5;
+}
+
+#figureFotoCampana{
+	margin: 0 auto;
+	margin-top: -2em;
+	width: 45em;
+}
+
+#figureFotoCampana img{
+	width: 100%;
+}
+
+#crearCampana{
+	background: #b2b2b1;
+	border-radius: 0 0 .33em .33em;
+	-webkit-border-radius: 0 0 .33em .33em;
+	-moz-border-radius: 0 0 .33em .33em;
+	-o-border-radius: 0 0 .33em .33em;
+	-ms-border-radius: 0 0 .33em .33em;
+	bottom: 0;
+	height: 2em;
+	margin: 0;
+	position: absolute;
+	width: 100%;
+}

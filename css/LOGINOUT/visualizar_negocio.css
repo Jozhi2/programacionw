@@ -1,0 +1,65 @@
+#cubrePantallaVisualizarNegocio{
+	background:  rgba(0, 0, 0, 0.8);
+	height: 100%;
+	position: fixed;	
+	width: 100%;
+	z-index: 4;
+}
+
+#cajaCentradaVisualizarNegocio{
+	background: #ececec;	
+	display: block;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;	
+	height: 50em;
+	margin-right: -42em;
+	margin-top: -25em;
+	position: fixed;
+	top: 50%;
+	right: 50%;
+	width: 84em;
+	z-index: 5;	
+}
+
+#negocioParteIzquierda{
+	display: inline-block;
+	width: 27em;
+}
+
+#negocioParteDerecha{
+	background: #b2b2b1;
+	display: inline-block;
+	margin-right: 2em;
+	margin-top: 2em;
+	height: 46em;
+	width: 55em;
+}
+
+#flechaIzquierda{
+	position: fixed;
+	margin-left: 2em;
+	margin-top: -2em;
+	top: 50%;
+	width: 2em;
+	z-index: 15;
+}
+
+#flechaIzquierda img{
+	width: 100%;
+}
+
+#flechaDerecha{
+	position: fixed;
+	margin-left: 92em;
+	margin-top: -2em;
+	top: 50%;
+	width: 2em;
+	z-index: 16;
+}
+
+#flechaDerecha img{
+	width: 100%;
+}

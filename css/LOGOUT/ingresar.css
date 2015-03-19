@@ -1,0 +1,104 @@
+#cubrePantallaIngresar{
+	background:  rgba(0, 0, 0, 0.8);
+	height: 100%;
+	position: fixed;	
+	width: 100%;
+	z-index: 10;
+}
+
+#cajaCentradaIngresar{
+	background: #ececec;	
+	display: block;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;	
+	height: 17.33em;
+	margin-right: -21em;
+	margin-top: -8.66em;
+	position: fixed;
+	top: 50%;
+	right: 50%;
+	width: 42em;
+	z-index: 11;	
+}
+
+#tituloIngresar{
+	color: #009EE3;
+	font-family: GothamBook;
+	margin-top: 1.6em;
+	margin-bottom: 1.6em;
+	text-align: center;
+}
+
+#formularioIngresar{
+	margin: 0px auto; 
+	width: 34.66em;
+}
+
+.inputFormularioIngresar{
+	background: #009ee3;
+	border: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	border-radius: 0.33em;
+	-webkit-border-radius: 0.33em;
+	-moz-border-radius: 0.33em;
+	-o-border-radius: 0.33em;
+	-ms-border-radius: 0.33em;	
+	color: white;
+	font-family: GothamBook;
+	height: 3em;
+	margin-bottom: 1.4em;
+	outline: none;
+	padding: 0px .66em;
+	width: 16em;
+}
+
+.inputDerechoFormularioIngresar{
+	margin-left: 2.66em;
+}
+
+#formularioBotonIngresar{
+	background: white;
+	border: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	border-radius: 0.33em;
+	-webkit-border-radius: 0.33em;
+	-moz-border-radius: 0.33em;
+	-o-border-radius: 0.33em;
+	-ms-border-radius: 0.33em;	
+	color: #009ee3;
+	font-family: GothamBook;
+	height: 3em;
+	margin-bottom: 2.66em; 
+	outline: none;
+	padding: 0px .66em;
+	width: 34.66em;
+}
+
+/*CAMBIARLE EL COLOR A PLACEHOLDER*/
+input.inputFormularioIngresar::-webkit-input-placeholder {
+   color: white;
+}
+
+input.inputFormularioIngresar:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+input.inputFormularioIngresar::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+input.inputFormularioIngresar:-ms-input-placeholder {  
+   color: white;  
+}
+/*CAMBIARLE EL COLOR A PLACEHOLDER*/

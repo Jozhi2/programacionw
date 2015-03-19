@@ -1,0 +1,69 @@
+#cubrePantallaOpciones{
+	height: 100%;
+	position: fixed;	
+	width: 100%;
+	z-index: 4;
+}
+
+.triangulo{
+	margin-left: 83.8em;
+	margin-top: 3.3em;
+	position: fixed;
+	width: 2em;
+	z-index: 6;
+}
+
+.triangulo img{
+	width: 100%;
+}
+
+#visualizarOpciones{
+	background: white;
+	border: 0.17em solid #6f6f6e;
+	border-radius: .7em;
+	-webkit-border-radius: .7em;
+	-moz-border-radius: .7em;
+	-o-border-radius: .7em;
+	-ms-border-radius: .7em;
+	height: 16em;
+	margin-left: 78.76em;
+	margin-top: 4.26em;
+	position: fixed;
+	width: 14.2em;
+	z-index: 5;
+}
+
+#visualizarOpciones p{
+	margin-left: 2em;
+	font-family: GothamBook;
+}
+
+#miHr{
+	background: #6f6f6e;
+	height: 1px;
+	margin: 0 auto;
+	width: 80%;
+}
+
+#promocionarCampana{
+	background: black;
+	border-radius: 0 0 .5em .5em;
+	-webkit-border-radius: 0 0 .5em .5em;
+	-moz-border-radius: 0 0 .5em .5em;
+	-o-border-radius: 0 0 .5em .5em;
+	-ms-border-radius: 0 0 .5em .5em;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	bottom: 0;
+	color: white;
+	left: -2em;
+	height: 3em;
+	margin: 0;
+	text-align: center;
+	padding-top: 1em;
+	position: absolute;
+	width: 100%;
+}

@@ -1,0 +1,12 @@
+#principal{
+	background: #ECECEC;
+}
+
+#principalMapa{
+	padding-top: 3.6em; /*ESTE PADDING SIRVE PARA COMPENSAR LOS PIXELES POR EL POSITION FIXED DEL ENCABEZADO*/
+	width: 100%;
+}
+
+#principalMapa img{
+	width: 100%;
+}

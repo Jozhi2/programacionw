@@ -1,0 +1,186 @@
+.publicacion{
+	border: 1px solid #dadad9;
+	border-radius: 1em;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	-o-border-radius: 1em;
+	-ms-border-radius: 1em;
+	height: 50.3em;
+	margin: 0 auto;
+	position: relative;
+	top: 3em;
+	width: 52em;
+}
+
+.cabeceraPublicacion{
+	background: white;
+	border-radius: .9em .9em 0 0;
+	-webkit-border-radius: .9em .9em 0 0;
+	-moz-border-radius: .9em .9em 0 0;
+	-o-border-radius: .9em .9em 0 0;
+	-ms-border-radius: .9em .9em 0 0;
+	height: 5em;
+	width: 100%;
+}
+
+.fotoQuienPublica{
+	height: 3em;
+	left: 1em;
+	position: absolute;
+	top: 1em;
+	width: 3em;
+}
+
+.fotoQuienPublica img{
+	border-radius: .33em;
+	-webkit-border-radius: .33em;
+	-moz-border-radius: .33em;
+	-o-border-radius: .33em;
+	-ms-border-radius: .33em;
+	width: 100%;
+}
+
+.quienLoPublica{
+	color: #575756;
+	font-family: GothamBook;
+	left: 5.33em;
+	margin: 0;
+	position: absolute;
+	top: 1.46em;
+
+}
+
+.fechaPublicacion{
+	color: #878786;
+	font-family: GothamBook;
+	left: 5.33em;
+	margin: 0;
+	position: absolute;
+	top: 2.73em;
+}
+
+.compartir{
+	height: 2.46em;
+	right: 9.3em;
+	position: absolute;
+	top: 1.28em;
+	width: 2.46em;
+}
+
+.compartir img{
+	width: 100%;
+}
+
+.favorito{
+	height: 2.46em;
+	right: 5.38em;
+	position: absolute;
+	top: 1.28em;
+	width: 2.46em;
+}
+
+.favorito img{
+	width: 100%;
+}
+
+.opcionesPublicacion{
+	height: 2.46em;
+	right: 1.46em;
+	position: absolute;
+	top: 1.28em;
+	width: 2.46em;
+}
+
+.opcionesPublicacion img{
+	width: 100%;
+}
+
+.localizacion{
+	left: 1.61em;
+	position: absolute;
+	top: 6.5em;
+	width: .66em;
+}
+
+.localizacion img{
+	width: 100%;
+}
+
+.localizacionTexto{
+	border: 1px solid #009ee3;
+	border-radius: .33em;
+	-webkit-border-radius: .33em;
+	-moz-border-radius: .33em;
+	-o-border-radius: .33em;
+	-ms-border-radius: .33em;
+	color: #009ee3;
+	font-family: GothamBook;
+	left: 1em;
+	margin: 0;
+	padding-bottom: .33em;
+	padding-left: 1.66em;
+	padding-right: .66em;
+	padding-top: .33em;
+	position: absolute;
+	top: 6.11em;
+}
+
+.localizacionTexto:hover{
+	background: #009ee3;
+	color: white;
+}
+
+.textoDePublicacion{
+	font-family: GothamBook;
+	left: 1em;
+	position: absolute;
+	top: 7.94em;
+}
+
+.contenidoPublicacion{
+	left: 1em;
+	position: absolute;
+	top: 11em;
+	width: 50em;
+}
+
+.contenidoPublicacion img{
+	width: 100%;
+}
+
+.fotoQuienComenta{
+	height: 3em;
+	left: 1em;
+	position: absolute;
+	top: 47.1em;
+	width: 2.33em;
+}
+
+.fotoQuienComenta img{
+	border-radius: .33em;
+	-webkit-border-radius: .33em;
+	-moz-border-radius: .33em;
+	-o-border-radius: .33em;
+	-ms-border-radius: .33em;
+	width: 100%;
+}
+
+.comentarInput{
+	border: none;
+	border-radius: .33em;
+	-webkit-border-radius: .33em;
+	-moz-border-radius: .33em;
+	-o-border-radius: .33em;
+	-ms-border-radius: .33em;
+	color: #878786;
+	font-family: GothamBook;
+	height: 2.33em;
+	outline: none;
+	padding-left: 1em;
+	position: absolute;
+	right: 1.066em;
+	bottom: 1em;
+	width: 49em;	
+}
+
+

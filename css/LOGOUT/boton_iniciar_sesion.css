@@ -1,0 +1,36 @@
+/* ID */
+
+#divCajaCentradaIniciarSesion{
+	background: #ececec;	
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	display: none;
+	height: 390px;
+    margin-left: 385px;
+	margin-top: 235px;
+	padding-top: 60px;
+	position: fixed;
+	width: 660px;	
+	z-index: 2;
+}
+
+#divCubrePantallaIniciarSesion{
+	background:  rgba(0, 0, 0, 0.8);
+	display: none;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+/* CLASS */
+
+.pTextoIndicativoIniciarSesion{
+	color: rgb(51, 51, 46);
+	font-family: GothamLight;
+	font-size: 16px;
+	text-align: center;
+}
+
